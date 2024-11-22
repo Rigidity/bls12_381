@@ -60,7 +60,7 @@ version = "2.2.1"
 default-features = false
 
 [dependencies.zeroize]
-version = ">= 1.4, <= 1.6" # zeroize 1.7 has MSRV 1.60
+version = "1.4"
 default-features = false
 optional = true
 
@@ -82,3 +82,4 @@ alloc = ["group/alloc"]
 experimental = ["digest"]
 nightly = ["subtle/nightly"]
 experimental_serde = ["dep:serde", "serdect"]
+std = []
